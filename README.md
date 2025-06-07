@@ -70,6 +70,7 @@ The full **Next.js-based website** is under development — lightning-fast, SEO-
 git clone https://github.com/wahednur/your-project.git
 cd your-project
 
+```
 
 ## 🎨 My Background in Creative Industry
 
@@ -92,4 +93,7 @@ This background gives me an edge in designing **visually impactful interfaces** 
 - 🌐 GitHub: [github.com/wahednur](https://github.com/wahednur)
 
 ---
+
+```
+
 ```
