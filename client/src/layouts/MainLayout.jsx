@@ -8,7 +8,7 @@ const MainLayout = () => {
       <div>
         <MainNavbar />
       </div>
-      <main>
+      <main className="vh-height">
         <Outlet />
       </main>
       <div>

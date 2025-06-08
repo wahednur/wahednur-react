@@ -12,6 +12,9 @@
   --font-inter: var(--font-inter);
   --font-title: var(--font-title);
   --font-quote: var(--font-quote);
+
+  --aspect-slider: 1920/1032;
+  --aspect-mbl: 9/16;
 }
 
 :root {
@@ -29,7 +32,7 @@
 
 /* Navbar css start  */
 .desk-nav {
-  @apply hidden lg:block;
+  @apply hidden lg:block border-b border-b-ws-primary/30 shadow-lg;
 }
 .mbl-nav {
   @apply lg:hidden;
@@ -72,7 +75,7 @@ h5 {
 }
 /* Navbar css end  */
 .vh-height {
-  @apply min-h-[calc(100vh-300px)];
+  @apply min-h-[calc(100vh-48px)];
 }
 
 /* Global CSS start  */
@@ -85,12 +88,21 @@ h5 {
 .frm-ctr {
   @apply px-3 py-2 rounded mb-5 bg-blue-100 outline-ws-secondary/30;
 }
+.slider-h {
+  @apply min-h-[calc(100vh-150px)];
+}
 
 /* Button  */
 .btn {
-  @apply px-4 py-2 rounded flex justify-center items-center;
+  @apply px-4 py-2 rounded flex justify-center items-center font-bold;
 }
 .btn-filled {
   @apply bg-ws-primary text-white hover:bg-ws-secondary duration-300 cursor-pointer;
+}
+.btn-outline {
+  @apply border border-ws-primary text-ws-primary hover:text-white hover:bg-ws-primary duration-300;
+}
+.btn-slider {
+  @apply border border-ws-primary hover:bg-ws-primary duration-300 text-white bg-black/20;
 }
 /* Global CSS end  */
