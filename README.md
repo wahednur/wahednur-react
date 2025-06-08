@@ -1,3 +1,5 @@
+![Homepage Screenshot](./client/public/cover.jpg)
+
 # 👨‍💻 Abul Wahed Nur — Full Stack Developer & Consultant
 
 Welcome to my personal web platform — a strategic fusion of technology, tools, and expertise designed to help individuals and businesses scale smarter, faster, and more securely.

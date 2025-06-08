@@ -10,10 +10,10 @@ const Slider = () => {
       <div className="bg-[url('/img/wahednur.png')] bg-contain bg-right-bottom w-full bg-no-repeat h-full">
         <div className="w-full aspect-mbl md:aspect-slider flex flex-col justify-center items-center">
           <div className="text-white">
-            <h1 className="text-3xl md:text-5xl lg:text-6xl uppercase text-shadow-2xl">
+            <h1 className="text-3xl md:text-5xl lg:text-6xl uppercase text-shadow-2xl text-ws-primary">
               Abdul Wahed Nur
             </h1>
-            <h2 className="text-lg lg:text-xl text-center">
+            <h2 className="text-lg lg:text-xl text-center text-ws-secondary my-2">
               Full Stack MERN Developer | SaaS Architect & Consultant
             </h2>
             <p className="text-base opacity-80 mt-2 text-center">
